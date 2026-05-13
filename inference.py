@@ -12,7 +12,7 @@ import numpy as np
 from PIL import Image
 from torchvision import transforms
 
-from vit.vit.vit_2_cls import VisionTransformer as VisionTransformer_2_cls
+from vit_2_cls import VisionTransformer as VisionTransformer_2_cls
 
 
 IMAGE_EXTS = {".jpg", ".jpeg", ".png", ".bmp", ".webp"}
